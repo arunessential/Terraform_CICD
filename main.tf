@@ -6,6 +6,6 @@ resource "aws_instance" "dev" {
     ami = "ami-00948338a4aeec604"
     instance_type = "t3.micro"
     tags = {
-      Name = "FIFA-WC2026"
+      Name = "FIFAWC-2026"
     }
 }
